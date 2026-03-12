@@ -24,19 +24,9 @@ class SpendrApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: false,
-        scaffoldBackgroundColor: Colors.white,
-        primaryColor: Colors.white,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white,
-          foregroundColor: Colors.black,
-          elevation: 1,
-          titleTextStyle: TextStyle(
-            color: Colors.black,
-            fontSize: 20,
-            fontWeight: FontWeight.w600,
-          ),
-          iconTheme: IconThemeData(color: Colors.black),
-        ),
+        scaffoldBackgroundColor: const Color(0xFFF2F0FB),
+        primaryColor: const Color(0xFF6C3FC5),
+        fontFamily: 'sans-serif',
       ),
       home: const HomeScreen(),
     );
