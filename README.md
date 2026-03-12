@@ -1,17 +1,55 @@
-# flutter_barredo
+# Expense Tracker Application
 
-A new Flutter project.
+A simple and clean Flutter expense tracking application built with the Provider state management pattern. Track your daily expenses in Philippine Peso (₱) with full create, read, edit, and delete functionality.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- View all expenses in a clean scrollable list
+  
+- Total summary displayed in a purple gradient card at the top
+  
+- Add new expenses with a title and amount
+  
+- Edit existing expenses via the edit icon on each tile
+  
+- Delete expenses via the delete icon on each tile
+  
+- Category icons — each expense category shows a unique icon
+  
+- Philippine Peso (₱) currency throughout the app
+  
+- Preloaded with seed data so the app is never empty on first launch
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter SDK >=3.0.0
+  
+- Dart SDK >=3.0.0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Use
+
+- Launch the app — seed expenses are preloaded
+  
+- Tap + Add Expense (bottom right) to add a new entry
+  
+- Fill in the Expense Title and Amount (₱), then tap Save Expense
+  
+- Tap the ✏️ edit icon on any tile to modify an expense
+  
+- Tap the 🗑️ delete icon on any tile to remove an expense
+  
+- The Total Expenses card updates automatically
+
+## Author
+
+Developed as a Flutter learning project demonstrating:
+
+- ChangeNotifier state management
+  
+- Consumer widget pattern
+  
+- MultiProvider setup
+  
+- Full CRUD operations
+  
+- Clean UI with Material Design
